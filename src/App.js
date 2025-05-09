@@ -172,7 +172,7 @@ function App() {
   const [isLoadingStates, setIsLoadingStates] = useState(false);
   
   // For n8n webhook
-  const webhookUrl = 'https://toolsagentn8n.app.n8n.cloud/webhook-test/Job-Helper-Automation';
+  const webhookUrl = 'https://toolsagentn8n.app.n8n.cloud/webhook/Job-Helper-Automation';
   
   // Fetch countries when component mounts
   useEffect(() => {
